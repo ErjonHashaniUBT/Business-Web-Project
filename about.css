@@ -95,7 +95,7 @@ button a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
   width: 900px;
   height: 300px;
   border: 1px solid white;
@@ -117,7 +117,7 @@ button a {
 .bgPhoto-blockquote {
   margin-top: 20px;
   color: white;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
 }
 
 .bgPhoto img {
@@ -129,7 +129,7 @@ button a {
 
 .about-content {
   display: flex;
-  margin: 20px 200px 20px 200px;
+  margin: 20px 100px 30px 100px;
 }
 
 .about-content-text {
@@ -142,20 +142,20 @@ button a {
 .about-content-text span {
   margin-top: 60px;
   padding: 10px;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .about-content-text h1 {
   color: rgb(79, 79, 79);
-  padding: 20px;
+  padding: 0px 10px 10px 10px;
   font-size: 60px;
 }
 
 .about-content-text p {
   padding: 10px;
   text-align: center;
-  margin: 0px 35px 0px 35px;
+  margin: 5px 30px 0px 30px;
   color: rgb(75, 75, 75);
   font-weight: 500;
   line-height: 30px;
@@ -167,20 +167,100 @@ button a {
   flex-direction: row;
   justify-content: center;
   max-width: 100%;
+  margin-bottom: 20px;
 }
 
 .about-image-img {
   background-color: #fff;
   border-radius: 5px;
   padding: 10px;
-  margin: 30px 0px 30px 0px;
+  margin: 30px 10px 30px 10px;
 }
 
 .about-image-img img {
-  width: 350px;
-  height: 300px;
+  width: 360px;
+  height: 450px;
 }
 
-.about-image img:nth-child(2){
-  margin-top: 40px;
+#about-image-2 img {
+  margin-top: 100px;
+}
+
+.bg-contact {
+  background-image: url(imgAbout/alberti3_about.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  max-width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.bg-contact-us {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+}
+
+.bg-contact-us h1 {
+  color: white;
+  font-weight: lighter;
+}
+
+.bg-contact-us .contact-button{
+  margin: 0px 0px 0px 20px;
+  border: none;
+  border: 1px solid rgb(217, 51, 0);
+  border-radius: 5px;
+  padding: 15px;;
+  background-color: rgb(217, 51, 0);
+  cursor: pointer;
+}
+
+.bg-contact-us .contact-button a{
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.footer-a a {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+footer img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 80px;
+}
+
+.copyright p {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 12px;
 }
