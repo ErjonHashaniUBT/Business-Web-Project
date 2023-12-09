@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input {
+  border: none;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  display: inline;
+}
+a {
+  color: white;
+}
+
+li {
+  padding: 19px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 160px;
+  background-color: black;
+  color: aliceblue;
+  height: 72px;
+  z-index: 1;
+  text-transform: uppercase;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 83px;
+  height: 30px;
+  margin-right: 15px;
+}
+span {
+  color: #e03030;
+  font-weight: 600;
+}
+.nright button {
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  min-height: 27px;
+  min-width: 60px;
+  font-weight: bolder;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: rgb(221, 221, 221);
+}
+.nright button:hover {
+  background-color: rgb(227, 227, 227);
+}
+button a {
+  color: black;
+}
+
+/* Main content */
+
+.contact-us {
+  width: 100%;
+  height: 300px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.contact-us img {
+  width: 350px;
+  height: 100px;
+  margin-top: 150px;
+  margin-right: 250px;
+}
+
+.contact-us p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 220px;
+}
+
+.contact-us-content {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-main1 {
+  display: flex;
+  text-transform: uppercase;
+  margin-top: 100px;
+  color: rgb(206, 79, 0);
+}
+
+.contact-us-main1 #email {
+  margin: 0px 400px;
+}
+
+.contact-us-main2 {
+  display: flex;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.contact-us-main2 #email {
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+.contact-us-main2 #email:hover {
+    color: red;
+}
+
+.contact-us-main2 #telefononi {
+  margin-left: 90px;
+}
+
+.contact-us-main2 #operimi {
+  text-align: center;
+}
+
+.container {
+  background-image: url("imgAbout/alberti4_contact.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 900px;
+}
+
+/* Footer */
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.footer-a a {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+footer img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 80px;
+}
+
+.copyright p {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 12px;
+}
